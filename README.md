@@ -1,11 +1,39 @@
 # quotJS
-JavaScript onload random quote engine
+**JavaScript onload random quote engine**
 
-1. refrence the style sheet (quot.css) file or the minified version (quote.min.css)
-2. refrence the javascript (quot.js) file or the minified version (quote.min.js)
-3. intialize by passing the HTML Node ID as function parameter to the initializer **$quot()**
+1. Refrence the *stylesheet* **(quot.css)** file or the minified version **(quote.min.css)** in the `<head> ... <\head>` element. 
+```html
+<head>
+...
+ <link rel="stylesheet" href="quot.min.css"/>
+ ...
+ </head>
+ ```
+2. Refrence the *JavaScript* **(quot.js)** file or the minified version *(quote.min.js)* Just before the closing tag of `<body>...</body>` element
+```html/JavaScript
+<body>
+ ...
+ <script src="quot.min.js"></script>
 
-*dev track*
-* created : October 21, 2020
-* updated : October 23, 2020
+</body>
+```
+3. Intialize by passing the **HTML *Node ID*** as function parameter to the initializer **$quot()**.
+```html 
+ <script> $quot("exampleId")</script>
+ ```
+
+Also, you can initialize the script in your *main.js* file thus :
+
+```JavaScript
+$quot(exampleId)
+```
+
+
+
+
+
+## *dev track*
+**[version 0.00]** (https://github.com/opeolluwa/quotJS/tree/main/V0.00)
+  * created : October 21, 2020
+  * updated : October 23, 2020
 
