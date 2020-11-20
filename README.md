@@ -1,7 +1,7 @@
 # quotJS
 **JavaScript onload random quote engine**
 
-1. Refrence the *stylesheet* **(quot.css)** file or the minified version **(quote.min.css)** in the `<head> ... <\head>` element. 
+1. Refrence the build *stylesheet* **(quot.css)** or the minified version **(quote.min.css)** in the `<head> ... <\head>` element. 
 ```html
 <head>
 ...
@@ -32,8 +32,8 @@ $quot(exampleId)
 
 
 
-## *dev track*
-**[version 0.00]** (https://github.com/opeolluwa/quotJS/tree/main/V0.00)
+## Source Control
+[version 0.00](https://github.com/opeolluwa/quotJS/tree/main/V0.00)
   * created : October 21, 2020
   * updated : October 23, 2020
 
