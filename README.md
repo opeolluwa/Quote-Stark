@@ -1,6 +1,6 @@
 # quotJS
 **JavaScript onload random quote engine**
-
+![example output](exampleId.png)
 1. Refrence the build *stylesheet* **(quot.css)** or the minified version **(quote.min.css)** in the `<head> ... <\head>` element. 
 ```html
 <head>
@@ -10,7 +10,7 @@
  </head>
  ```
 2. Refrence the *JavaScript* **(quot.js)** file or the minified version *(quote.min.js)* Just before the closing tag of `<body>...</body>` element
-```html/JavaScript
+```html
 <body>
  ...
  <script src="quot.min.js"></script>
