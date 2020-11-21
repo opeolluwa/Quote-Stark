@@ -11,5 +11,11 @@
 <div id=tst>
 </div>
 <script>$quot("tst")</script>
+<script type="module"> 
+
+let data = fetch('/data.json')
+.then(data => data.json())
+.then(data=>console.log(data[Math.round(data.length*Math.random())]))
+</script>
 </body>
 </html>

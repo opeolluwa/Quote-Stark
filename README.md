@@ -1,6 +1,6 @@
 # quotJS
 **JavaScript onload random quote engine**
-![example output](example.png)
+
 1. Refrence the build *stylesheet* **(quot.css)** or the minified version **(quote.min.css)** in the `<head> ... <\head>` element. 
 ```html
 <head>
