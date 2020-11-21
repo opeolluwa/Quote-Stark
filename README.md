@@ -36,4 +36,14 @@ $quot(exampleId)
 [version 0.00](https://github.com/opeolluwa/quotJS/tree/main/V0.00)
   * created : October 21, 2020
   * updated : October 23, 2020
+  
+ [version 0.10]()
+ * Pulled from [version 0.00](https://github.com/opeolluwa/quotJS/tree/main/V0.00)
+ * updated: November 21 2020
+ 
 
+## Goal track
+[x] Use **.json** file as database
+[]  Reach **1000+** _quotes_ : ![28.6%](https://progress-bar.dev/28.6)
+[] Incorporate on focus animation
+## ...
