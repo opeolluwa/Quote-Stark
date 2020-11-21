@@ -43,7 +43,7 @@ $quot(exampleId)
  
 
 ## Goal track
-[x] Use **.json** file as database
-[]  Reach **1000+** _quotes_ : ![28.6%](https://progress-bar.dev/28.6)
-[] Incorporate on focus animation
+- [x] Use **.json** file as database
+- [ ]  Reach **1000+** _quotes_ : [28.6%](https://progress-bar.dev/28.6) Attained
+- [ ] Incorporate on focus animation
 ## ...
