@@ -1,6 +1,6 @@
 const QUOT = {
  init: function(nodeId) {
-//refernce node
+  //refernce node
   const $quot = () => document.getElementById(nodeId);
   //get started
   let data = fetch('/data.json')
@@ -21,7 +21,9 @@ const QUOT = {
     //create nodes
     let quote = document.createElement('div');
     let quoter = document.createElement("small");
-    //afterwards add content to nodes
+    //afterwards add content to node
+     fetchedData.quoteContent= (fetchedData.quoteContent[
+     fetchedData.quoteContent.length - 1] === '.') ? fetchedData.quoteContent : fetchedData.quoteContent + '.';
     quote.appendChild(document.createTextNode(fetchedData.quoteContent));
     quoter.appendChild(document.createTextNode(fetchedData.quoterContent));
     //add stylesheet 
