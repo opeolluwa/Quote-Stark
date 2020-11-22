@@ -10,8 +10,6 @@ const QUOT = {
    .then((data) => {
     //define index holder
     let index = Math.round(data.length * Math.random());
-console.log(data.length)
-
     //a temporary holder
     fetchedData = {
      quoteContent: data[index][0],
