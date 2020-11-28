@@ -10,7 +10,6 @@ const QUOT = {
    .then((data) => {
     //define index holder
     let index = Math.round(data.length * Math.random());
-
     //a temporary holder
     fetchedData = {
      quoteContent: data[index][0],
@@ -21,6 +20,7 @@ const QUOT = {
     //create nodes
     let quote = document.createElement('div');
     let quoter = document.createElement("small");
+    
     //afterwards add content to node
      fetchedData.quoteContent= (fetchedData.quoteContent[
      fetchedData.quoteContent.length - 1] === '.') ? fetchedData.quoteContent : fetchedData.quoteContent + '.';
