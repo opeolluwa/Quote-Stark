@@ -1,16 +1,26 @@
+@font-face {
+ font-family: quotfont;
+ src: url(../font/.ttf);
+}
+@font-face {
+ font-family: quotrfont;
+ src: url(../font/7.ttf);
+}
+
 .quot {
- font-size: 90%;
- font-weight: 300;
+ font-size: 102%;
+ font-weight: lighter;
+ font-family: quotfont;
  text-align: center;
  margin-bottom: 1rem;
  font-style: italic;
  max-width: 60%;
- margin-left:20%;
+ margin-left: 20%;
 }
 
 .quot:after,
 .quot:before {
- font-size: 120%;
+ font-size: 150%;
  font-weight: 500;
 }
 
@@ -19,16 +29,17 @@
 }
 
 .quot:before {
- content: "\201C\00A0";
+ content: "\201C\00A0\00A0";
 }
 
 .quotr {
  text-align: center;
  display: block;
  font-size: 80%;
+ font-family: quotrfont;
  color: #6c757d;
 }
 
 .quotr:before {
- content: "\2014\00A0";
+ content: "\2014\00A0;
 }
