@@ -53,6 +53,6 @@ QUOT.init("exampleId")
 
 ## Goal track
 - [x] Use **.json** file as database
-- [ ] ![72%](https://progress-bar.dev/72?title=Reach_1000+_quotes_) Attained
+- [ ] ![85%](https://progress-bar.dev/85?title=Reach_1000+_quotes_) Attained
 - [ ] Incorporate on focus animation
 - [ ] Offer on [CDN](https://www.google.com/search?q=cdn&oq=cdn&aqs=chrome..69i57j0i67j69i60l2j5i44.2641j0j1&sourceid=chrome-mobile&ie=UTF-8)
