@@ -22,7 +22,10 @@ const QUOT = {
     let quote = document.createElement('div');
     let quoter = document.createElement("small");
     
-    //afterwards add content to node
+    //afterwards add content to node"
+    //But first ==>
+    //remove space at start and end then add fullstop to .quoteContent
+     //fetchedData.quoteContent.trim();
      fetchedData.quoteContent= (fetchedData.quoteContent[
      fetchedData.quoteContent.length - 1] === '.') ? fetchedData.quoteContent : fetchedData.quoteContent + '.';
     quote.appendChild(document.createTextNode(fetchedData.quoteContent));
