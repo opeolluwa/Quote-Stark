@@ -48,11 +48,12 @@ QUOT.init("exampleId")
  [version 0.10]()
  * Pulled from [version 0.00](https://github.com/opeolluwa/quotJS/tree/main/V0.00), November 20, 2020
  * updated: November 21 2020
+ * progress : November 30, 2020. 946 _quotes_ acquired😋
 
  
 
 ## Goal track
 - [x] Use **.json** file as database
-- [ ] ![85%](https://progress-bar.dev/85?title=Reach_1000+_quotes_) Attained
+- [ ] ![95%](https://progress-bar.dev/95?title=Reach_1000+_quotes_) Attained
 - [ ] Incorporate on focus animation
 - [ ] Offer on [CDN](https://www.google.com/search?q=cdn&oq=cdn&aqs=chrome..69i57j0i67j69i60l2j5i44.2641j0j1&sourceid=chrome-mobile&ie=UTF-8)
