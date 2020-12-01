@@ -33,8 +33,7 @@ const QUOT = {
     //then add to holder
     $quot(nodeId).appendChild(quote);
     $quot(nodeId).appendChild(quoter);
-   }, 5000)).then(()=>{
-    nodeId.innerHTML = ''
-   });
+   }, 5000))
+   
  }
 }
