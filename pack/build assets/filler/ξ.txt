@@ -26,7 +26,7 @@
 91. “We, the unwilling, led by the unknowing, are doing the impossible for the ungrateful. We have done so much, for so long, with so little, we are now qualified to do anything with nothing."
 - Unknown
 
-92. “One man’s \"magic\" is another man’s engineering. \"Supernatural\" is a null word.”
+92. “One man’s “magic” is another man’s engineering. “Supernatural” is a null word.”
 - Robert A. Heinlein
 
 93.“I am an old man now, and when I die and go to Heaven there are two matters on which I hope for enlightenment. One is quantum electrodynamics and the other is the turbulent motion of fluids. And about the former I am rather more optimistic.”
@@ -46,11 +46,10 @@
 97. “I am, and ever will be, a white-socks, pocket-protector, nerdy engineer, born under the second law of thermodynamics, steeped in steam tables, in love with free body diagrams, transformed by Laplace and propelled by compressible flow.”
 - Neil Armstrong
 
-101. “Thirty spokes share the wheel's hub; it is the center hole that makes it useful. Shape clay into a vessel; it is the space within that makes it useful. Cut doors and windows for a room; it is the holes which make it useful. Therefore benefit comes from what is there; usefulness comes from what is not."
+98. "Thirty spokes share the wheel's hub; it is the center hole that makes it useful. Shape clay into a vessel; it is the space within that makes it useful. Cut doors and windows for a room; it is the holes which make it useful. Therefore benefit comes from what is there; usefulness comes from what is not."
 - Excerpt from the Tao Te Ching
 
-
-101. “The scientific man does not aim at an immediate result. He does not expect that his advanced ideas will be readily taken up. His work is like that of the planter ; for the future. His duty is to lay the foundation for those who are to come, and point the way. He lives and labors and hopes.”
+99. "The scientific man does not aim at an immediate result. He does not expect that his advanced ideas will be readily taken up. His work is like that of the planter ; for the future. His duty is to lay the foundation for those who are to come, and point the way. He lives and labors and hopes.”
 - Nikola Tesla
 
 100. “There is no demand for women engineers, as such, as there are for women doctors; but there’s always a demand for anyone who can do a good piece of work.”
@@ -58,3 +57,17 @@
 
 101. “The world would be a better place if more engineers, like me, hated technology. The stuff I design, if I’m successful, nobody will ever notice. Things will just work, and be self managing.”
 - Radia Pearlman
+
+
+
+
+
+
+
+
+
+
+
+
+
+

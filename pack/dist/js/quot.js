@@ -8,7 +8,7 @@ const QUOT = {
    .then(data => data.json())
    //define and refernce variables
    .then((data) => {
-    //console.log(data.length, 'made')
+    console.log(data.length, 'made')
     //define index holder
     let index = Math.round(data.length * Math.random());
     //a temporary holder
