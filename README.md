@@ -49,14 +49,12 @@ QUOT.init("exampleId")
  * Pulled from [version 0.00](https://github.com/opeolluwa/quotJS/tree/main/V0.00), November 20, 2020
  * updated: November 21 2020
  * progress : November 30, 2020. 946 _quotes_ acquired😋
- * progress : 1045 _quotes_ acquired and *ECMA-404*, *RFC 7159* & *RFC 8259*  **JSON Specification** compliant.
- 
-![Validated JSON](https://www.github.com/opeolluwa/quotJS/pack/build-assets/validated.png)
+ * progress :December 01, 2020 1045 _quotes_ acquired is *ECMA-404*, *RFC 7159* & *RFC 8259*  **JSON Specification**  compliant
 
 
 
 ## Goal track
 - [x] Use **.json** file as database
-- [x] ![100%](https://progress-bar.dev/100?title=Reach_1000+_quotes_) Attained 
+- [x] ![100%](https://progress-bar.dev/100?title=Reach-1000-+-quotes)
 - [ ] Incorporate on focus animation
 - [ ] Offer on [CDN](https://www.google.com/search?q=cdn&oq=cdn&aqs=chrome..69i57j0i67j69i60l2j5i44.2641j0j1&sourceid=chrome-mobile&ie=UTF-8)
