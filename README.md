@@ -49,9 +49,11 @@ QUOT.init("exampleId")
  * Pulled from [version 0.00](https://github.com/opeolluwa/quotJS/tree/main/V0.00), November 20, 2020
  * updated: November 21 2020
  * progress : November 30, 2020. 946 _quotes_ acquired😋
- * progress : 1045 _quotes_ acquired and *ECMA-404*, *RFC 7159* & *RFC 8259*  **JSON Specification** compliant.![Validated JSON](pack/build assets/validated-JSON.png)
-
+ * progress : 1045 _quotes_ acquired and *ECMA-404*, *RFC 7159* & *RFC 8259*  **JSON Specification** compliant.
  
+![Validated JSON](https://www.github.com/opeolluwa/quotJS/pack/build-assets/validated.png)
+
+
 
 ## Goal track
 - [x] Use **.json** file as database
