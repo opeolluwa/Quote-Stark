@@ -1,1 +1,1 @@
- let data = 'fool';
+let k; export default k = 12;

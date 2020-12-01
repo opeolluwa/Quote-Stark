@@ -9,14 +9,10 @@
 
 <body>
  <p id="node"></p>
-<script>
- function tt(){
-  let ct =5;
-  document.getElementById('node').innerHTML = ct+=1;
-  
- }
+<script type="module">
 
-window.setInterval(tt,2000)
+  import m from './mod-data.js'; // note that we have the freedom to use import m instead of import k, because k was default export
+  console.log(m);
 </script>
 </body>
 
