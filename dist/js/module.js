@@ -1,5 +1,5 @@
 import data from './data.js';
-let node = document.querySelector('div[data-quot="node"]');
+let node = document.querySelector('[data-quot="node"]');
 let quote = document.createElement('div');
 let quoter = document.createElement("small");
 node.appendChild(quote);
@@ -21,4 +21,4 @@ function drx() {
  quoter.classList.add('quotr');
 }
 
-window.setInterval(drx, 5000);
+window.setInterval(drx, 1000);
