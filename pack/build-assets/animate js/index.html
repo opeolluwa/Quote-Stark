@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title></title>
+ <style type="text/css" media="all">
+  #tunnel,
+   {
+   width: 10rem;
+   height: 10rem;
+   background: #660066;
+  }
+
+  #atz {
+   background: transparent;
+   border: 1px solid black;
+  }
+ </style>
+</head>
+
+<body>
+ <div id=tunnel>
+ </div>
+ <div id="atz">
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+ </div>
+ <script type="text/javascript" charset="utf-8">
+  document.getElementById("tunnel")
+   .animate(
+ [
+ // keyframes
+     { transform: 'translateY(0px)' },
+     { transform: 'translateY(-300px)' }
+ ], {
+     // timing options
+     duration: 1000,
+     iterations: Infinity
+    });
+
+  /*
+ @keyframes text-focus-in {
+ 0% {
+ -webkit-filter: blur(12px);
+ filter: blur(12px);
+ opacity: 0
+ }
+
+ 100% {
+ -webkit-filter: blur(0);
+ filter: blur(0);
+ opacity: 1
+ }
+}
+ 
+ */
+
+
+  document.getElementById('atz')
+   .animate([
+    { filter: 'blur(12px)' },
+    { opacity: 0 },
+    { filter: 'blur(0)' },
+    { opacity: 1 }],
+   {
+    // timing options
+    duration: 1000,
+    iterations: Infinity
+   })
+ </script>
+</body>
+
+</html>
