@@ -24,8 +24,10 @@ let quoter = document.createElement("small");
  //add stylesheet
 node.appendChild(quote);
 node.appendChild(quoter);
+
 //append children nodes to root node
- quote.classList.add('quot');
+ //quote.classList.add('quot');
+ Object.assign(quote.style, converted[".quote"])
  //quote.classList.add('atz');
  quoter.classList.add('quotr');
 /*define a function that repeat the process
