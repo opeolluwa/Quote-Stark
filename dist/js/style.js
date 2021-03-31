@@ -1,3 +1,12 @@
+import jss from './jss'
+import preset from 'jss-preset-default'
+
+jss.setup(preset())
+
+
+
+
+
 const converted;
 export default converted = {
   "@font-face": [
