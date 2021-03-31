@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/opeolluwa/quote-stark/issues"
   },
-  "homepage": "https://github.com/opeolluwa/quote-stark#readme"
+  "homepage": "https://github.com/opeolluwa/quote-stark#readme",
+  "dependencies": {
+    "jss-preset-default": "^10.6.0"
+  }
 }
