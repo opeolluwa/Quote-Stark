@@ -1,16 +1,8 @@
-import jss from 'https://unpkg.com/jss/dist/jss.js';
-import preset from 'https://unpkg.com/jss-preset-default/dist/jss-preset-default.js';
-
-jss.setup(preset());
-
-
-
-
-
-const style = {
+ let stylesheet;
+ export default stylesheet = {
   "@font-face": [
-    { fontFamily: "quotfont", src: "url(../font/5.ttf)" },
-    { fontFamily: "quotrfont", src: "url(../font/7.ttf)" }
+    { fontFamily: "quotfont", src: "url(/5.ttf)" },
+    { fontFamily: "quotrfont", src: "url(/7.ttf)" }
   ],
   "@-webkit-keyframes text-focus-in": {
     "0%": { WebkitFilter: "blur(12px)", filter: "blur(12px)", opacity: 0 },
@@ -44,6 +36,3 @@ const style = {
   "quotr:before": { content: '"\\2014\\00A0"' }
 }
 
-
-// Compile styles, apply plugins.
-const sheet = jss.createStyleSheet(style).attach()
