@@ -46,3 +46,4 @@ function $quot() {
 
 window.setInterval($quot, 15000);
 //window.setInterval(quote.classList.add('atz'), 10000)
+

@@ -1,0 +1,19 @@
+{
+  "name": "quote-stark",
+  "version": "1.0.0",
+  "description": "**JavaScript onload random quote engine**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opeolluwa/quote-stark.git"
+  },
+  "author": "Opeoluwa Adeoye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opeolluwa/quote-stark/issues"
+  },
+  "homepage": "https://github.com/opeolluwa/quote-stark#readme"
+}
