@@ -14,7 +14,7 @@
   },
   "quot": {
     fontSize: "110%",
-    fontWeight: 200,
+    fontWeight: 300,
     fontFamily: "quotrfont",
     textAlign: "center",
     marginBottom: "1rem",

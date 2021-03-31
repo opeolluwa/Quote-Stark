@@ -3,6 +3,7 @@
 document.font.add(_font);
 _font.load().then((addToQuote)=> quote.style.fontFamily = "quotfont")*/
 //import quots
+
 import data from './data.js';
 import stylesheet from './style.js';
 
