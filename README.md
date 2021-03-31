@@ -1,20 +1,31 @@
-# quotJS
+# Quote Stark
 **JavaScript onload random quote engine**
 
 1. Refrence the build *stylesheet* **(quot.css)** or the minified version **(quote.min.css)** in the `<head> ... <\head>` element. 
 ```html
 <head>
 ...
- <link rel="stylesheet" href="quot/dist/css/quot.min.css"/>
+<!--build--version-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/css/quot.css"/>
+
+<!--production version-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/css/quot.min.css"/>
+
  ...
+ 
  </head>
  ```
 
-2. Refrence the *JavaScript* **(quot.js)** file or the minified version *(quote.min.js)* Just before the closing tag of `<body>...</body>` element
+2. Refrence the *JavaScript* **(index.js)** file or the minified version *(quote.min.js)* Just before the closing tag of `<body>...</body>` element
 ```html
 <body>
  ...
- <script src="quot/dist/js/quot.min.js"></script>
+<!--build version-->
+ <script src="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/js/index.js"></script>
+ 
+ <!--minified version-->
+  <script src="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/js/index.min.js"></script>
+
 </body>
 ```
 

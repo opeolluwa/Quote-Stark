@@ -1,5 +1,16 @@
+
+
+
+
+
+
+
+
+
+
 //import quotes
 import data from './data.js';
+import stylesheet from './style.js';
 //refrence the root node 
 let node = document.querySelector('[data-quot="node"]');
 //define children nodrs
@@ -25,7 +36,7 @@ node.appendChild(quoter);
 */
 function $quot() {
  let index = [Math.round(data.length * Math.random())];
- console.log(index)
+
  quote.innerHTML = data[index][0];
  quoter.innerHTML = data[index][1];
  //animate node
@@ -46,4 +57,4 @@ function $quot() {
 
 window.setInterval($quot, 15000);
 //window.setInterval(quote.classList.add('atz'), 10000)
-
+Object.assign(node, converted);
