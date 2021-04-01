@@ -6,10 +6,11 @@
 
 ```html
 <!--quote-stark.css-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/css/quot-stark.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/css/qts.css"/>
  
 <!--quote-stark.js -->
- <script src="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/js/quot-stark.js" type="module"></script>
+   <script src="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/js/qts.js" type="module"></script>
+
 ```
 
 
