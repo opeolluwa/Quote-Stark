@@ -18,7 +18,7 @@ let quoter = document.createElement("small");
 let index = [Math.round((data.length - 1) * Math.random())];
 //to start with : append quote and quoter on respective nodes 
 quote.innerHTML = data[index][0];
-quoter.innerHTML = `${String.fromCharCode(8212)+"  "+data[index][1]}`;
+quoter.innerHTML = data[index][1];
 //add stylesheet
 node.appendChild(quote);
 node.appendChild(quoter);
