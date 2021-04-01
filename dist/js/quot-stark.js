@@ -8,7 +8,6 @@ _font.load().then((addToQuote)=> quote.style.fontFamily = "quotfont")*/
 
 
 import data from './data.js';
-import stylesheet from '.style.js';
 
 //refrence the root node 
 let node = document.querySelector('[data-quot="node"]');
@@ -28,6 +27,9 @@ node.appendChild(quoter);
 //append styles to children nodes 
 Object.assign(quote.style, stylesheet.quot);
 Object.assign(quoter.style, stylesheet.quotr);
+//hooks for custom stylesheet
+quote.classList.add('quot');
+quoter.classList.add('quotr');
 
 //quote.classList.add('atz');
 /*define a function that repeat the process

@@ -1,28 +1,42 @@
 # Quote Stark
 **JavaScript onload random quote engine**
 
+## Installation
+1. Copy the CDN for the to the head tag
 
-1. Refrence the **(index.js)** file or the minified version *(quote.min.js)* Just before the closing tag of `<body>...</body>` element
 ```html
-<body>
- ...
-<!--build version-->
- <script src="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/js/index.js"></script>
+<!--quote-stark.css-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/css/quot-stark.css"/>
  
- <!--minified version-->
-  <script src="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/js/index.min.js"></script>
-
-</body>
+<!--quote-stark.js -->
+ <script src="https://cdn.jsdelivr.net/gh/opeolluwa/Quote-Stark@main/dist/js/quot-stark.js" type="module"></script>
 ```
 
 
-. Markup an element which will be the *quote* container thus :
+**Remember to include** 
+````html
+type = "module" 
+````
+in the javascript attribute
+
+2. Markup an element which will be the *quote* container thus :
 ```html 
  <div data-quot = "node"></div>
 ````
 
+## Using Custom Stylesheet
+The quote and quoter have the following css hooks
 
+````css
+.quot {
+  /*custom stylesheet for quotes */
+}
 
+.quotr {
+    /*custom stylesheet for quoter */
+
+}
+````
 
 ## Source Timeline
 
@@ -41,5 +55,5 @@
 - [x] ![100%](https://progress-bar.dev/100?title=Reach-1000-+-quotes)
 - [x] Incorporate on focus animation
 - [x] Offer on [CDN](https://www.google.com/search?q=cdn&oq=cdn&aqs=chrome..69i57j0i67j69i60l2j5i44.2641j0j1&sourceid=chrome-mobile&ie=UTF-8)
-- [x] offer on npm
+- [] offer on npm
 - 
