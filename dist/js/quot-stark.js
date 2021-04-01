@@ -8,7 +8,6 @@ _font.load().then((addToQuote)=> quote.style.fontFamily = "quotfont")*/
 
 
 import data from './data.js';
-import stylesheet from './style.js';
 
 //refrence the root node 
 let node = document.querySelector('[data-quot="node"]');
@@ -26,8 +25,8 @@ node.appendChild(quoter);
 
 
 //append styles to children nodes 
-Object.assign(quote.style, stylesheet.quot);
-Object.assign(quoter.style, stylesheet.quotr);
+//Object.assign(quote.style, stylesheet.quot);
+//Object.assign(quoter.style, stylesheet.quotr);
 //hooks for custom stylesheet
 quote.classList.add('quot');
 quoter.classList.add('quotr');
@@ -43,7 +42,7 @@ function $quot() {
   let index = [Math.round(data.length * Math.random())];
 
   quote.innerHTML = data[index][0];
-quoter.innerHTML = `${String.fromCharCode(8212)+"  "+data[index][1]}`;
+quoter.innerHTML = data[index][1];
 
   //animate node
   node.animate([
