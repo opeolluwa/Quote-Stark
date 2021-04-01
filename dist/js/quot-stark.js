@@ -8,6 +8,7 @@ _font.load().then((addToQuote)=> quote.style.fontFamily = "quotfont")*/
 
 
 import data from './data.js';
+import stylesheet from './style.js';
 
 //refrence the root node 
 let node = document.querySelector('[data-quot="node"]');
