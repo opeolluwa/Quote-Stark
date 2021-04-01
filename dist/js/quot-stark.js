@@ -4,8 +4,11 @@ document.font.add(_font);
 _font.load().then((addToQuote)=> quote.style.fontFamily = "quotfont")*/
 //import quots
 
+
+
+
 import data from './data.js';
-import stylesheet from './style.js';
+import stylesheet from '.style.js';
 
 //refrence the root node 
 let node = document.querySelector('[data-quot="node"]');
@@ -22,10 +25,7 @@ node.appendChild(quote);
 node.appendChild(quoter);
 
 
-//append children nodes to root node
-//quote.classList.add('quot');
-//quote.classList.add(style.quote);
-
+//append styles to children nodes 
 Object.assign(quote.style, stylesheet.quot);
 Object.assign(quoter.style, stylesheet.quotr);
 
@@ -59,6 +59,4 @@ quoter.innerHTML = `${String.fromCharCode(8212)+"  "+data[index][1]}`;
 }
 
 window.setInterval($quot, 15000);
-//window.setInterval(quote.classList.add('atz'), 10000)
-//Object.assign(node, converted);
 

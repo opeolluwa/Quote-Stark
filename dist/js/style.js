@@ -1,8 +1,8 @@
  let stylesheet;
  export default stylesheet = {
   "@font-face": [
-    { fontFamily: "quotfont", src: "url(/5.ttf)" },
-    { fontFamily: "quotrfont", src: "url(/7.ttf)" }
+    { fontFamily: "quotfont", src: "url(../5.ttf)" },
+    { fontFamily: "quotrfont", src: "url(../7.ttf)" }
   ],
   "@-webkit-keyframes text-focus-in": {
     "0%": { WebkitFilter: "blur(12px)", filter: "blur(12px)", opacity: 0 },
