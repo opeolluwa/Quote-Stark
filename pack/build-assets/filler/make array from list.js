@@ -4,7 +4,7 @@ function getted() {
  let holder = [];
  let arr = [];
 
- let response = fetch('uu.txt')
+ let response = fetch('u.txt')
   .then(response => response.text())
   .then(response => {
    holder = response.split('“').slice()
@@ -28,7 +28,7 @@ function getted() {
     }
    }
    console.log(quotrArr);
-   for (let item = 0; item < holder.length - 1; item++) {
+   for (let item = 0; item < holder.length ; item++) {
     arr.push(`[${quotArr[item]},
     ${quotrArr[item]}]`)
    }
