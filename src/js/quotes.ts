@@ -3,7 +3,7 @@ const duration = 15000
 
 // function Quotes(selector: string, duration: number = 15000) {
 //reference the parent element and create two child elements to hold the quote and author 
-const parentElement = document?.querySelector("#container")
+const parentElement = document?.querySelector("[data-quotes-container]")
 const quoteContainer = document?.createElement("div");
 const quoterContainer = document?.createElement("small")
 

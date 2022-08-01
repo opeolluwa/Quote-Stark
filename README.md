@@ -35,3 +35,7 @@ The plugin has `quote` and `quoter` classes to style the quotes and the quoter r
   /*custom stylesheet for quoter */
 }
 ```
+
+## Examples
+
+see the `examples` folder
