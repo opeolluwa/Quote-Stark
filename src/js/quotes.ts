@@ -1,9 +1,9 @@
-import data from "./data"
+import data from "./data.js"
 const duration = 15000
 
 // function Quotes(selector: string, duration: number = 15000) {
 //reference the parent element and create two child elements to hold the quote and author 
-const parentElement = document?.querySelector("data-quotes=")
+const parentElement = document?.querySelector("#container")
 const quoteContainer = document?.createElement("div");
 const quoterContainer = document?.createElement("small")
 
