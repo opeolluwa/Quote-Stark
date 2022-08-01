@@ -37,5 +37,6 @@ The plugin has `quote` and `quoter` classes to style the quotes and the quoter r
 ```
 
 ## Examples
-
+[basic usage](https://github.com/opeolluwa/quotes/blob/8b22e6799e1e4c62df79b213e12eced68c9e1bd0/examples/basic.html)
+[custom stylesheet](https://github.com/opeolluwa/quotes/blob/8b22e6799e1e4c62df79b213e12eced68c9e1bd0/examples/custom.html)
 see the `examples` folder
