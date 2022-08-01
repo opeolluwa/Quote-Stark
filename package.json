@@ -1,22 +1,17 @@
 {
-  "name": "quote-stark",
+  "name": "quotes",
   "version": "1.0.0",
-  "description": "**JavaScript onload random quote engine**",
-  "main": "index.js",
+  "description": "A Random quotes plugin for JavaScript/Typescript",
+  "main": "dist/quotes.js",
+  "repository": "https://github.com/opeolluwa/quotes",
+  "author": "Adeoye Adefemi Opeoluwa <adefemiadeoye@yahoo.com>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "bash build.sh",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/opeolluwa/quote-stark.git"
-  },
-  "author": "Opeoluwa Adeoye",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/opeolluwa/quote-stark/issues"
-  },
-  "homepage": "https://github.com/opeolluwa/quote-stark#readme",
-  "dependencies": {
-    "jss-preset-default": "^10.6.0"
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }
