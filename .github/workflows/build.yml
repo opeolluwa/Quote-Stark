@@ -29,5 +29,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Building typescript,
-          yarn, 
-          yarn build 
+          npm install, 
+          npm run build 
